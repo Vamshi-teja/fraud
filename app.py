@@ -13,7 +13,7 @@ CORS(app)
 DB_CONFIG = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'vamshi3405$',  # Update with your MySQL password
+    'password': '######',  # Update with your MySQL password
     'database': 'fraud_detection',
     'buffered': True,  # ← FIX: This prevents "Unread result found"
     'consume_results': True  # ← FIX: This consumes all results automatically
@@ -215,4 +215,5 @@ if __name__ == '__main__':
     print("   - http://localhost:5000/api/transactions (Transaction History)")
     print("   - http://localhost:5000/api/stats (Statistics)")
     
+
     app.run(debug=True, port=5000, host='0.0.0.0')
