@@ -17,8 +17,8 @@ credit card fraud detection/
 │
 ├── backend/                # Python Flask backend
 │   ├── app.py              # Main Flask application
-│   ├── model.pkl           # Trained ML model
-│   └── ml_model.py    # Python dependencies
+│   ├──  ml_model.py         # Trained ML model
+│                            # Python dependencies
 │
 ├── frontend/
 │   └── fraud/
