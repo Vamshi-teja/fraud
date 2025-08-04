@@ -5,7 +5,7 @@ from mysql.connector import Error
 DB_CONFIG = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'vamshi3405$',  # Update this
+    'password': '######',  # Update this
     'database': 'fraud_detection'
 }
 
@@ -58,4 +58,5 @@ def get_db_connection():
 
 if __name__ == "__main__":
     print("🧪 Testing database connection...")
+
     test_connection()
